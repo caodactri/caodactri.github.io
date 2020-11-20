@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+}
+#banner{
+	height:100vh;
+	background-image:url("Img.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#banner logobanner{
+	width: 189px;
+  height: 22px;
+  margin: 0 509px 263px 0;
+  text-shadow: -0.7px 5px 32px rgba(0, 0, 0, 0.75);
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: 8px;
+  text-align: center;
+  color: #fafafa;
+	float:left;
+
+}
+#banner ul{
+	list-style-type:none;
+	width:50%;
+	padding-top:25px;
+	margin-left:30%;
+	float:right;
+}
+#banner ul li{
+	display:inline;font-family:"poppins",sans-serif;
+	font-size:16px;
+	letter-spacing:0.56px;
+	color:#FEFEFE;
+	padding-right:30px;
+}
+#banner hr{
+	 width: 47px;
+ height: 3px;background-color: #02d871;border: none;margin: 100px 0 0 50px;
+}
+#banner h1{
+	
+ 
+  font-family: Poppins;
+  font-size: 40px;
+ 
+  letter-spacing: 0.63px;;
+  padding-left:50px;
+	padding-top:30px;
+  color: #ffffff;
+
+}
+#banner p{
+	 font-family: 'Poppins', sans-serif;
+ font-size: 18px;
+ letter-spacing: 0.63px;
+ color: #a3a3a3;
+ padding-top: 10px; padding-left: 50px;
+}
